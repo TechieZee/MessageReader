@@ -58,7 +58,8 @@ public class MainActivity extends AppCompatActivity {
             String mobileNumber = cursor.getString(1);
             String messageBody = cursor.getString(3);
             String[] data = messageBody.split("#");
-            /*
+            String Tushar = "I am a good boy.";
+            /
             ** mobileNumber = Mobile Number Of Participant
             * data[0] = Name of Participant
             * data[1] = Name of Coaching
